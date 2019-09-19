@@ -6,7 +6,13 @@ public class Hello {
 //        new Person().hello();
         Person p = new Person();
         p.hello();
-        int age = 19;
+        p.weight = 67f;
+        p.height = 1.8f;
+        System.out.println(p.bmi());
+
+
+
+        /*int age = 19;
         Integer age2 = 19;
         char c = '我';
         Character c2 = 'A';
@@ -15,6 +21,6 @@ public class Hello {
         float height = 1.7f;
         boolean adult = true;
         boolean enroll = false;
-        String name = "Wei";
+        String name = "Wei";*/
     }
 }
