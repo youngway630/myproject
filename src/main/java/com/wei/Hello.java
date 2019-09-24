@@ -4,10 +4,10 @@ public class Hello {
     public static void main(String[] args) {
 //        System.out.println("Hello World");
 //        new Person().hello();
-        Person p = new Person();
+        Person p = new Person(67f, 1.8f);
         p.hello();
-        p.weight = 67f;
-        p.height = 1.8f;
+       /* p.weight = 67f;
+        p.height = 1.8f;*/
         System.out.println(p.bmi());
 
 
