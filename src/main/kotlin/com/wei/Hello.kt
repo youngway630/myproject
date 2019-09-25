@@ -7,6 +7,11 @@ fun main(args: Array<String>) {
     val h = Human(weight = 67f, height = 1.8f)
     println(h.bmi())
 
+    val score = 88
+    println(score > 80)
+
+    val c:Char = 'A'
+    println(c.toInt() > 60)
 
     /*var age : Int = 19
     age = 20
